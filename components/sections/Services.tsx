@@ -2,40 +2,47 @@ import React from 'react'
 
 // src/components/sections/Services.tsx
 import Section from "../ui/Section";
+import Card from '../ui/Card';
 
 export default function Services() {
   return (
     <Section id="services" title="What I can build">
-      <div className="grid gap-8 md:grid-cols-2 text-neutral-300 max-w-4xl">
-        <div>
-          <h3 className="font-medium mb-2">Serious games</h3>
-          <p>
-            Training-oriented games focused on risk management,
-            safety, and decision-making.
-          </p>
-        </div>
+      <div className="grid gap-8 md:grid-cols-2 max-w-4xl">
+        <Card
+          title="Serious games"
+          items={[
+            "Training-oriented interactive experiences",
+            "Focus on risk management and safety",
+            "Learning through decision-making",
+          ]}
+        />
 
-        <div>
-          <h3 className="font-medium mb-2">Simulations</h3>
-          <p>
-            Interactive simulations to explore complex systems
-            and human behavior.
-          </p>
-        </div>
+        <Card
+          title="Simulations"
+          items={[
+            "Exploration of complex systems",
+            "Human behavior and constraints",
+            "Safe environments for experimentation",
+          ]}
+        />
 
-        <div>
-          <h3 className="font-medium mb-2">Prototypes & POCs</h3>
-          <p>
-            Rapid prototypes to test ideas, mechanics, or training concepts.
-          </p>
-        </div>
+        <Card
+          title="Prototypes & POCs"
+          items={[
+            "Rapid iteration and validation",
+            "Gameplay and interaction testing",
+            "Concepts for training or R&D",
+          ]}
+        />
 
-        <div>
-          <h3 className="font-medium mb-2">Multi-platform builds</h3>
-          <p>
-            Desktop, mobile or WebGL builds depending on project needs.
-          </p>
-        </div>
+        <Card
+          title="Multi-platform builds"
+          items={[
+            "Desktop applications",
+            "Mobile (Android / iOS)",
+            "WebGL / Unity Play",
+          ]}
+        />
       </div>
     </Section>
   );

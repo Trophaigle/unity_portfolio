@@ -9,13 +9,17 @@ export default function Section({ id, title, children }: Props) {
   return (
     <section
       id={id}
-      className="max-w-5xl mx-auto px-6 py-24"
+      className="py-28 px-6 max-w-5xl mx-auto "
     >
       {title && (
-        <h2 className="text-3xl font-semibold mb-8">
-          {title}
-        </h2>
+        <div className="mb-12">
+          <h2 className="text-3xl font-semibold mb-3">
+            {title}
+          </h2>
+          <div className="w-16 h-[3px] bg-gradient-to-r from-emerald-400 to-cyan-400 rounded-full" />
+        </div>
       )}
+
       {children}
     </section>
   );

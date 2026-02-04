@@ -2,37 +2,66 @@ import React from 'react'
 
 // src/components/sections/Demos.tsx
 import Section from "../ui/Section";
+import Image from 'next/image';
 
+
+
+const demos = [
+  {
+    title: "Crisis decision simulation",
+    description:
+      "Scenario-based simulation focused on decision-making under time pressure and uncertainty.",
+    image: "/unity-image.png",
+    link: "https://play.unity.com/fr/games/1827c35f-1c75-4c38-8ae1-94567c9d0776/hazard-spotting-unity-demo",
+  },
+  {
+    title: "Risk awareness training module",
+    description:
+      "Interactive environment designed to identify, evaluate and mitigate risks.",
+    image: "/unity-image.png",
+    link: "https://play.unity.com/fr/games/1827c35f-1c75-4c38-8ae1-94567c9d0776/hazard-spotting-unity-demo",
+  },
+];
 
 export default function Demos() {
   return (
     <Section id="demos" title="Demos & prototypes">
-      <div className="space-y-10 max-w-3xl">
-        <div>
-          <h3 className="font-medium mb-1">
-            Crisis decision simulation
-          </h3>
-          <p className="text-neutral-400 mb-2">
-            A scenario-based simulation where players make decisions
-            under time pressure and uncertainty.
-          </p>
-          <a className="underline" href="#">
-            Play on Unity Play
-          </a>
-        </div>
+      <div className="grid gap-8 md:grid-cols-2">
+        {demos.map((demo) => (
+          <a
+            key={demo.title}
+            href={demo.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group block bg-neutral-900 rounded-xl overflow-hidden hover:bg-neutral-800 transition"
+          >
+            {/* Image */}
+            <div className="relative h-56 overflow-hidden">
+             
+              <Image
+                src={demo.image}
+                alt={demo.title}
+                fill
+                className="object-cover group-hover:scale-105 transition"
+              />
+            </div>
 
-        <div>
-          <h3 className="font-medium mb-1">
-            Risk awareness training module
-          </h3>
-          <p className="text-neutral-400 mb-2">
-            Interactive environment designed to identify, evaluate
-            and mitigate risks.
-          </p>
-          <a className="underline" href="#">
-            View prototype
+            {/* Text */}
+            <div className="p-6">
+              <span className="text-xs text-neutral-400 block mb-2">
+                Unity Play · WebGL
+              </span>
+                    
+              <h3 className="font-medium mb-2">
+                {demo.title}
+              </h3>
+                    
+              <p className="text-neutral-400 text-sm">
+                {demo.description}
+              </p>
+            </div>
           </a>
-        </div>
+        ))}
       </div>
     </Section>
   );
