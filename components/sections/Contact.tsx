@@ -2,7 +2,7 @@
 
 import Section from "../ui/Section";
 import { useState } from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaGlobe, FaLinkedin } from "react-icons/fa";
 
 export default function Contact() {
   const [email, setEmail] = useState("");
@@ -80,26 +80,36 @@ export default function Contact() {
           )}
 
           <div className="flex gap-6 mt-4 text-neutral-400">
-  <a
-    href="https://github.com/Trophaigle"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="hover:text-white transition"
-    title="GitHub"
-  >
-    <FaGithub size={24} />
-  </a>
+          <a
+            href="https://github.com/Trophaigle"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition"
+            title="GitHub"
+          >
+            <FaGithub size={24} />
+          </a>
 
-  <a
-    href="https://www.linkedin.com/in/thomas-serafin/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="hover:text-white transition"
-    title="LinkedIn"
-  >
-    <FaLinkedin size={24} />
-  </a>
-</div>
+          <a
+            href="https://www.linkedin.com/in/thomas-serafin/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:text-white transition"
+            title="LinkedIn"
+          >
+            <FaLinkedin size={24} />
+          </a>
+          <a
+             href="https://thomaserafin.com"
+             target="_blank"
+             rel="noopener noreferrer"
+             className="hover:text-white transition"
+             title="Site internet personnel"
+           >
+             <FaGlobe size={24} />
+           </a>
+
+          </div>
         </div>
       </Section>
     </footer>
