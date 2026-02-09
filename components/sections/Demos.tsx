@@ -16,7 +16,7 @@ const demos = [
     link: "https://play.unity.com/fr/games/1827c35f-1c75-4c38-8ae1-94567c9d0776/hazard-spotting-unity-demo",
   },
   {
-    title: "Cybersecurity training module (coming soon)",
+    title: "Cybersecurity training module (coming very soon)",
     description:
       "Scenario-based simulation focused on identifying and mitigating cybersecurity threats.",
     image: "/unity-image.png",
