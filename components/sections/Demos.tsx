@@ -12,7 +12,7 @@ const demos = [
     title: "Risk awareness training module",
     description:
       "Interactive 3D environment designed to identify, evaluate and mitigate risks.",
-    image: "/unity-image.png",
+    image: "/image2.png",
     link: "https://play.unity.com/fr/games/1827c35f-1c75-4c38-8ae1-94567c9d0776/hazard-spotting-unity-demo",
   },
   {

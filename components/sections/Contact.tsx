@@ -81,7 +81,7 @@ export default function Contact() {
 
           <div className="flex gap-6 mt-4 text-neutral-400">
           <a
-            href="https://github.com/Trophaigle"
+            href="https://github.com/Trophaigle?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-white transition"
