@@ -21,6 +21,13 @@ const demos = [
       "Scenario-based simulation focused on identifying and mitigating cybersecurity threats in a simulated corporate workstation.",
     image: "/cybersecuMailFile.png",
     link: "https://play.unity.com/fr/games/8726d29d-574e-49e8-bfa6-b3ccdeddfbd4/cyber-desk-threat-detection",
+  },
+  {
+    title: "Risk awareness on track (work in progress)",
+    description:
+      "Immersive 3D racing game where players identify and mitigate risks on a dynamic track.",
+    image: "/workinprogress.png",
+    link: "#",
   }
 ];
 
