@@ -23,11 +23,11 @@ const demos = [
     link: "https://play.unity.com/fr/games/8726d29d-574e-49e8-bfa6-b3ccdeddfbd4/cyber-desk-threat-detection",
   },
   {
-    title: "Risk awareness on track (work in progress)",
+    title: "SafePath: Risk Assessment - Prototype",
     description:
-      "Immersive 3D racing game where players identify and mitigate risks on a dynamic track.",
-    image: "/workinprogress.png",
-    link: "#",
+      "Immersive 3D racing game where players identify and mitigate risks on a dynamic track. (cinemachine, interfaces, scriptable object, inheritance)",
+    image: "/image.png",
+    link: "https://play.unity.com/fr/games/4685d6a6-a22f-4fe2-bf0d-d94da52bf4b2/safepath-risk-assessment-proto",
   }
 ];
 
