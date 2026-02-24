@@ -7,7 +7,7 @@ export default function Hero() {
 
     {/* Background image */}
       <Image
-        src="/unity-image.png"
+        src="/image2.png"
         alt="Serious game simulation"
         fill
         priority

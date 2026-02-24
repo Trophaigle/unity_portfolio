@@ -57,7 +57,7 @@ export default function Demos() {
             {/* Text */}
             <div className="p-6">
               <span className="text-xs text-neutral-400 block mb-2">
-                Unity Play · WebGL . Mobile
+                Desktop · WebGL . Mobile
               </span>
                     
               <h3 className="font-medium mb-2">
