@@ -40,6 +40,7 @@ export default function Services() {
           items={[
             "Desktop applications",
             "Mobile (Android / iOS)",
+            "Mixed Reality",
             "WebGL / Unity Play",
           ]}
         />
