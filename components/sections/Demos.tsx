@@ -7,9 +7,17 @@ import Image from 'next/image';
 
 
 const demos = [
-  
+  {
+    title: "Glassware safety in lab - VR",
+    platform: "Virtual Reality",
+    description:
+      "Interactive 3D virtual environment designed to secure glassware risks in a chemistry lab.",
+    image: "/labVR.jpg",
+    link: "#",
+  },
   {
     title: "Risk awareness training module",
+    platform: "Desktop · WebGL . Mobile",
     description:
       "Interactive 3D environment designed to identify, evaluate and mitigate risks.",
     image: "/image2.png",
@@ -17,6 +25,7 @@ const demos = [
   },
   {
     title: "Cybersecurity training module",
+    platform: "Desktop · WebGL . Mobile",
     description:
       "Scenario-based simulation focused on identifying and mitigating cybersecurity threats in a simulated corporate workstation.",
     image: "/cybersecuMailFile.png",
@@ -24,6 +33,7 @@ const demos = [
   },
   {
     title: "SafePath: Risk Assessment - Prototype",
+    platform: "Desktop · WebGL . Mobile",
     description:
       "Immersive 3D racing game where players identify and mitigate risks on a dynamic track. (cinemachine, interfaces, scriptable object, inheritance)",
     image: "/image.png",
@@ -57,7 +67,7 @@ export default function Demos() {
             {/* Text */}
             <div className="p-6">
               <span className="text-xs text-neutral-400 block mb-2">
-                Desktop · WebGL . Mobile
+                {demo.platform}
               </span>
                     
               <h3 className="font-medium mb-2">
