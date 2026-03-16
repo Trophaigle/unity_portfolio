@@ -1,5 +1,6 @@
 import Nav from "@/components/Nav";
 import About from "@/components/sections/About";
+import AddDemos from "@/components/sections/AdditionnalDemos";
 import Contact from "@/components/sections/Contact";
 import Demos from "@/components/sections/Demos";
 import Hero from "@/components/sections/Hero";
@@ -18,6 +19,7 @@ export default function Home() {
      <Vision />
      <Services />
      <Demos />
+     <AddDemos />
      <Skills />
      <About />
      <Contact />
