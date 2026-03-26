@@ -13,7 +13,7 @@ const demos = [
     description:
       "Interactive 3D virtual environment designed to secure glassware risks in a chemistry lab.",
     image: "/labVR.jpg",
-    link: "https://youtu.be/S14iRSk4VP0",
+    link: "https://sidequestvr.com/app/55057/glasslab-vr",
   },
   {
     title: "Risk awareness training module",
