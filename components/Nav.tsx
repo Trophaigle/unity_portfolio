@@ -8,11 +8,12 @@ export default function Nav() {
   const [lang, setLang] = useState<"EN" | "FR">("EN");
 
   const links = [
-    { label: "Approach", href: "#vision" },
-    { label: "Services", href: "#services" },
-    { label: "Demos", href: "#demos" },
-    { label: "Skills", href: "#skills" },
-    { label: "Contact", href: "#contact" },
+    { label: "About", href: "/#about" },
+    { label: "Unity", href: "/#unity" },
+    { label: "XR", href: "/#xr" },
+    { label: "Unreal Engine", href: "/#unreal" },
+    { label: "Skills", href: "/#skills" },
+    { label: "Contact", href: "/#contact" },
   ];
 
   return (

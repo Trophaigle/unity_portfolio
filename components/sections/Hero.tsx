@@ -1,48 +1,50 @@
-import Image from 'next/image';
-import React from 'react'
+import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center">
+    <section className="relative min-h-screen flex items-center overflow-hidden">
 
-    {/* Background image */}
+      {/* BACKGROUND IMAGE */}
       <Image
-        src="/image2.png"
-        alt="Serious game simulation"
+        src="/bg-hero.jpg" //engine-like scene image
+        alt="3D engine creation environment"
         fill
         priority
         className="object-cover"
       />
 
-      {/* Overlay */}
-      <div className="absolute inset-0 bg-black/60" />
+      {/* OVERLAY */}
+      <div className="absolute inset-0  bg-gradient-to-b from-black/40 via-black/60 to-black" />
 
-      {/* Content */}
+      {/* CONTENT */}
       <div className="relative z-10 max-w-5xl mx-auto px-6">
-        <h1 className="text-5xl font-semibold mb-6 leading-tight">
-          Unity Developer <br />
-          Serious Games & Risk Management
+
+        <h1 className="text-5xl font-semibold mb-6 leading-tight text-white">
+          Unity - Unreal Developer <br />
+          Desktop / Mobile / XR
         </h1>
 
         <p className="text-xl text-neutral-300 max-w-2xl mb-10">
-          I design interactive simulations that help people train, make decisions,
-          and understand risk through experience.
+          Harness the power of 3D engines to bring ideas to life through immersive
+          and interactive experiences. I turn concepts into living digital experiences.
         </p>
 
         <div className="flex gap-4">
           <a
-            href="#demos"
+            href="#unity"
             className="px-6 py-3 bg-white text-black"
           >
-            View demos
+            View projects
           </a>
+
           <a
             href="#contact"
-            className="px-6 py-3 border border-neutral-600"
+            className="px-6 py-3 border border-neutral-600 text-white"
           >
             Get in touch
           </a>
         </div>
+
       </div>
     </section>
   );

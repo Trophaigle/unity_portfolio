@@ -1,10 +1,10 @@
+import Nav from "@/components/Nav";
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Unity Serious Game Developer",
-  description: "Unity developer specialized in serious games and risk management simulations",
+  title: "3D Engine Portfolio",
+  description: "A showcase of my work in Unity, Unreal Engine, and XR development. Explore interactive demos, immersive experiences, and innovative projects that highlight my skills in 3D engine development.",
 };
 
 export default function RootLayout({
@@ -13,11 +13,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body
-        className="br-neutral-950 text-neutral-100"
+        className="br-neutral-950 text-neutral-10"
       >
-        {children}
+         <Nav />
+
+         <main>
+          {children}
+        </main>
       </body>
     </html>
   );

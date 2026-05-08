@@ -1,30 +1,25 @@
 import Nav from "@/components/Nav";
 import About from "@/components/sections/About";
-import AddDemos from "@/components/sections/AdditionnalDemos";
 import Contact from "@/components/sections/Contact";
-import Demos from "@/components/sections/Demos";
 import Hero from "@/components/sections/Hero";
 import Problem from "@/components/sections/Problem";
 import Services from "@/components/sections/Services";
 import Skills from "@/components/sections/Skills";
-import Vision from "@/components/sections/Vision";
+import Unity from "@/components/sections/Unity";
+import Unreal from "@/components/sections/Unreal";
+
+import XR from "@/components/sections/XR";
 
 export default function Home() {
   return (
     <>
-    <Nav />
-    <main>
      <Hero />
-     <Problem />
-     <Vision />
-     <Services />
-     <Demos />
-     <AddDemos />
-     <Skills />
      <About />
-     <Contact />
-    </main>
-    </>
-   
+     <Unity />
+     <XR />
+     <Unreal />
+     {/* <Skills /> */}
+     <Contact />  
+    </>   
   );
 }
