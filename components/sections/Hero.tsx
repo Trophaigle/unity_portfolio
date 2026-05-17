@@ -19,15 +19,18 @@ export default function Hero() {
       {/* CONTENT */}
       <div className="relative z-10 max-w-5xl mx-auto px-6">
 
-        <h1 className="text-5xl font-semibold mb-6 leading-tight text-white">
-          Unity - Unreal Developer <br />
-          Desktop / Mobile / XR
-        </h1>
+       <h1 className="text-5xl font-semibold mb-6 leading-tight text-white">
+  Unity / Unreal Engine Developer <br />
+  Real-time 3D · XR · Interactive Applications
+</h1>
 
-        <p className="text-xl text-neutral-300 max-w-2xl mb-10">
-          Harness the power of 3D engines to bring ideas to life through immersive
-          and interactive experiences. I turn concepts into living digital experiences.
-        </p>
+<p className="text-xl text-neutral-300 max-w-2xl mb-10">
+  I design and develop real-time 3D applications, from interactive simulations to immersive XR experiences across desktop, mobile, and VR/AR platforms.
+</p>
+
+<p className="text-lg text-neutral-400 mb-10">
+  3 years of experience with Unity and Unreal Engine
+</p>
 
         <div className="flex gap-4">
           <a

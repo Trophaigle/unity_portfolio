@@ -9,9 +9,9 @@ export default function Nav() {
 
   const links = [
     { label: "About", href: "/#about" },
-    { label: "Unity", href: "/#unity" },
-    { label: "XR", href: "/#xr" },
-    { label: "Unreal Engine", href: "/#unreal" },
+    { label: "Featured", href: "/#featured" },
+    { label: "Client And Collaborative", href: "/#client-collab" },
+    { label: "Prototypes", href: "/#prototypes" },
     { label: "Skills", href: "/#skills" },
     { label: "Contact", href: "/#contact" },
   ];

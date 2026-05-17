@@ -2,38 +2,55 @@ import React from 'react'
 
 // src/components/sections/Skills.tsx
 import Section from "../ui/Section";
-import Card from '../ui/Card';
+import SkillCard from '../ui/SkillCard';
 
 export default function Skills() {
   return (
-    <Section id="skills" title="Skills">
-      <div className="grid gap-8 md:grid-cols-3 max-w-5xl">
-        <Card
-          title="Unity"
+    <Section
+      id="skills"
+      title="Skills & Technologies"
+    >
+      <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-4 max-w-6xl">
+
+        <SkillCard
+          title="Engines"
           items={[
-            "C# scripting",
-            "Gameplay systems",
-            "UI / UX",
+            "Unity",
+            "Unreal Engine 5",
+            "Blueprint System",
           ]}
         />
 
-        <Card
-          title="Serious game design"
+        <SkillCard
+          title="Programming"
           items={[
-            "Pedagogical mechanics",
-            "Scenario design",
-            "Feedback & scoring",
+            "C#",
+            "C++",
+            "Python",
+            "Object-Oriented Architecture",
           ]}
         />
 
-        <Card
-          title="Development"
+        <SkillCard
+          title="XR Development"
           items={[
-            "Git / version control",
-            "Clean architecture",
-            "Rapid iteration",
+            "VR / AR / MR",
+            "OpenXR",
+            "Meta Quest",
+            "AR Foundation",
           ]}
         />
+
+        <SkillCard
+          title="Tools & Workflow"
+          items={[
+            "Git / GitHub",
+            "Blender",
+            "Shader Graph",
+            "Cinemachine",
+          ]}
+        />
+
       </div>
     </Section>
   );

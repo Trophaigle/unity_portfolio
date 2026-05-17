@@ -8,12 +8,12 @@ export default function About() {
 
         {/* LEFT */}
         <p className="max-w-2xl text-neutral-300">
-          I design interactive 3D experiences, ranging from prototypes in Unity and Unreal Engine to XR projects (VR/AR). 
-          <br /><br />
-          Beyond functionality—whether simulations, immersive experiences, or gameplay—I place strong emphasis on the aesthetic dimension of my work. 
-          <br /><br />
-          My approach blends technical development with artistic sensitivity to create experiences that are both immersive and visually cohesive.
-        </p>
+  I develop interactive 3D applications and XR systems (VR/AR) using Unity and Unreal Engine, ranging from real-time simulations to immersive environments.
+  <br /><br />
+  My focus lies in building technically robust systems with a strong emphasis on visual clarity, interaction design, and overall coherence.
+  <br /><br />
+  I bridge engineering and design to deliver real-time experiences that are both functional and intentionally crafted.
+</p>
 
         {/* RIGHT */}
         <div className="md:ml-auto md:max-w-xs text-neutral-300">
