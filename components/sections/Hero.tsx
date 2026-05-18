@@ -6,7 +6,7 @@ export default function Hero() {
 
       {/* BACKGROUND IMAGE */}
       <Image
-        src="/bg-hero.jpg" //engine-like scene image
+        src="/bg-hero.jpg"
         alt="3D engine creation environment"
         fill
         priority
@@ -14,40 +14,57 @@ export default function Hero() {
       />
 
       {/* OVERLAY */}
-      <div className="absolute inset-0  bg-gradient-to-b from-black/40 via-black/60 to-black" />
+      <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black" />
 
       {/* CONTENT */}
       <div className="relative z-10 max-w-5xl mx-auto px-6">
 
-       <h1 className="text-5xl font-semibold mb-6 leading-tight text-white">
-  Unity / Unreal Engine Developer <br />
-  Real-time 3D · XR · Interactive Applications
-</h1>
+        {/* SMALL LABEL */}
+        <p className="text-sm tracking-[0.2em] uppercase text-neutral-300 mb-4">
+          Unity · Unreal Engine · XR
+        </p>
 
-<p className="text-xl text-neutral-300 max-w-2xl mb-10">
-  I design and develop real-time 3D applications, from interactive simulations to immersive XR experiences across desktop, mobile, and VR/AR platforms.
-</p>
+        {/* TITLE */}
+        <h1 className="text-5xl md:text-6xl font-semibold leading-tight text-white max-w-4xl mb-6">
+          Real-time 3D Developer crafting immersive interactive applications
+        </h1>
 
-<p className="text-lg text-neutral-400 mb-10">
-  3 years of experience with Unity and Unreal Engine
-</p>
+        {/* DESCRIPTION */}
+        <p className="text-xl text-neutral-300 max-w-2xl leading-relaxed mb-8">
+          I build real-time experiences across desktop, mobile, and VR/AR platforms, combining technical development with strong visual direction.
+        </p>
 
-        <div className="flex gap-4">
+        {/* EXPERIENCE */}
+        <p className="text-sm uppercase tracking-wide text-neutral-400 mb-10">
+          3+ years working with 3D engines and immersive technologies
+        </p>
+
+        {/* ACTIONS */}
+        <div className="flex items-center gap-4 flex-wrap">
+
           <a
             href="#unity"
-            className="px-6 py-3 bg-white text-black"
+            className="px-6 py-3 bg-white text-black rounded-lg hover:bg-neutral-200 transition-colors"
           >
             View projects
           </a>
 
           <a
             href="#contact"
-            className="px-6 py-3 border border-neutral-600 text-white"
+            className="px-6 py-3 border border-neutral-600 text-white rounded-lg hover:border-neutral-400 transition-colors"
           >
             Get in touch
           </a>
-        </div>
 
+          <a
+            href="/Mathis_Lastname_Resume.pdf"
+            target="_blank"
+            className="text-sm tracking-wide text-neutral-500 hover:text-neutral-300 transition-colors"
+          >
+            Resume ↗
+          </a>
+
+        </div>
       </div>
     </section>
   );

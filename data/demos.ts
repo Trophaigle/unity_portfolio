@@ -116,10 +116,14 @@ export const projects: Project[] = [
     description: `
     Interactive XR application designed to visualize weather forecasts directly inside the user's environment.
 
-    The project combines Unity AR Foundation, OpenWeatherMap APIs, and immersive visual effects to transform weather data into spatial augmented reality experiences.
+    The project combines Unity AR, OpenWeatherMap APIs, Unity WebSocket and immersive visual effects to transform weather data into spatial augmented reality experiences.
 
     The experience focuses on intuitive environmental visualization and real-time interaction systems for XR devices.
     `,
+    /*Real-time AR weather visualization system developed in Unity XR with Python backend integration and immersive interactive data visualization.
+Integrated OpenMeteo API data through a Python FastAPI backend with real-time WebSocket communication.
+Designed interactive XR histogram visualizations with responsive hand-tracking interactions and immersive weather feedback.
+Optimized real-time rendering, data streaming, and visual effects for performant cross-platform XR experiences. */
 
     technologies: ["Unity", "XR", "AR", "Meta Quest 3"],
 
