@@ -10,7 +10,7 @@ export default function About() {
         <p className="max-w-2xl text-neutral-300">
   I develop interactive 3D applications and XR systems (VR/AR) using Unity and Unreal Engine, ranging from real-time simulations to immersive environments.
   <br /><br />
-  My focus lies in building technically robust systems with a strong emphasis on visual clarity, interaction design, and overall coherence.
+  My focus lies in building technically robust systems with a strong emphasis on visual clarity, interaction design (UI/UX), and overall coherence.
   <br /><br />
   I bridge engineering and design to deliver real-time experiences that are both functional and intentionally crafted.
 </p>
