@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "3D Engine Portfolio",
-  description: "A showcase of my work in Unity, Unreal Engine, and XR development. Explore interactive demos, immersive experiences, and innovative projects that highlight my skills in 3D engine development.",
+  description: "A portfolio presenting my work in real-time 3D, XR development, and interactive systems using Unity and Unreal Engine. It highlights immersive applications, simulations, and engineering-driven projects focused on performance, interaction design, and visual clarity.",
 };
 
 export default function RootLayout({
