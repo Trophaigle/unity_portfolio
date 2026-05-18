@@ -57,7 +57,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="/Mathis_Lastname_Resume.pdf"
+            href="/files/CV_ThomasSERAFIN-EN.pdf"
             target="_blank"
             className="text-sm tracking-wide text-neutral-500 hover:text-neutral-300 transition-colors"
           >
