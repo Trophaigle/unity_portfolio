@@ -213,21 +213,49 @@ Optimized real-time rendering, data streaming, and visual effects for performant
   description: `
 End-of-studies XR research project developed during an internship at the Institut de Recherche en Informatique de Toulouse (IRIT).
 
-The project explores remote collaborative workspaces through augmented reality peephole interactions, allowing users to observe and interact with shared environments via networked spatial experiences.
+Exploration of remote collaborative workspaces through augmented reality peephole interactions, enabling users to observe and interact with a distant virtual workspace in real time.
 
-The system focuses on spatial perception, collaboration, and immersive interaction in AR contexts.
+Development of a targeted spatial representation of the remote environment including:
+  - Virtual screens
+  - User avatars
+  - Gesture visualization
+  - Shared spatial interactions
+
+Design of an interactive diorama system used to control the visibility and occlusion of remote virtual elements inside the user’s field of view.
+
+The diorama acts as a spatial filtering interface, improving readability, focus, and spatial perception in collaborative AR environments.
+
+Implementation of a client-server architecture using Unity Netcode:
+  - Clients connect to a centralized server
+  - Virtual workspace elements and diorama states are generated server-side
+  - Synchronization and interaction updates are distributed through Unity RPCs
+
+Research topics addressed by the project:
+  - Spatial perception in mixed reality
+  - Remote collaboration and presence
+  - Immersive interaction design
+  - Distributed XR systems
   `,
 
   technologies: ["Unity", "AR", "Research", "Networking"],
 
   tools: [
     "Unity",
+    "Netcode for GameObjects",
     "C#",
     "Meta Interaction Toolkit",
     "Meta Quest 3",
   ],
 
   images: ["/diorama.jpg"],
+  videos: [
+    {
+      src: "/videos/VirtualisationEcranDiorama.mp4"
+    },
+    {
+      src: "/videos/controlsVideoDiorama.mp4"
+    }
+  ],
 
   link: "https://www.youtube.com/watch?v=IMhJPF-WwJM&list=LL",
 },

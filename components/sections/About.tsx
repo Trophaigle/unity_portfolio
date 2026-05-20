@@ -30,7 +30,7 @@ export default function About() {
           <ul className="mt-4 space-y-1 text-sm text-neutral-400">
             <li>🇫🇷 French — Native</li>
             <li>🇬🇧 English — Fluent</li>
-            <li>🇩🇪 German — A2+</li>
+            <li>🇩🇪 German — B1</li>
             <li>🇪🇸 Spanish — A2+</li>
           </ul>
 
