@@ -31,7 +31,7 @@ export default function Hero() {
 
         {/* DESCRIPTION */}
         <p className="text-xl text-neutral-300 max-w-2xl leading-relaxed mb-8">
-          I build real-time experiences across desktop, mobile, and VR/AR platforms, combining technical development with strong visual direction.
+          I build real-time experiences across desktop, mobile, and VR/AR platforms, combining technical development with strong audio and visual direction.
         </p>
 
         {/* EXPERIENCE */}
