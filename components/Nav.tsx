@@ -17,7 +17,7 @@ export default function Nav() {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-neutral-950/80 backdrop-blur border-b border-neutral-800">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-neutral-950/80 backdrop-blur-none md:backdrop-blur border-b border-neutral-800">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         {/* Logo / Name */}
         <div className="text-xl font-bold">Thomas Serafin</div>
@@ -58,7 +58,7 @@ export default function Nav() {
 
       {/* Mobile Drawer */}
       <div
-        className={`fixed inset-0 z-50 bg-neutral-950/10 backdrop-blur transform transition-transform duration-300 md:hidden ${
+        className={`fixed inset-0 z-50 bg-neutral-950/80 backdrop-blur transform transition-transform duration-300 md:hidden ${
           mobileOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
