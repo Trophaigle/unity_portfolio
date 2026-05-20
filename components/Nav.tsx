@@ -58,7 +58,7 @@ export default function Nav() {
 
       {/* Mobile Drawer */}
       <div
-        className={`fixed inset-0 z-50 bg-neutral-950/90 backdrop-blur transform transition-transform duration-300 md:hidden ${
+        className={`fixed inset-0 z-50 bg-neutral-950/10 backdrop-blur transform transition-transform duration-300 md:hidden ${
           mobileOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
