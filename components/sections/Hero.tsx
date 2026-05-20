@@ -17,7 +17,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/60 to-black" />
 
       {/* CONTENT */}
-      <div className="relative z-10 max-w-5xl mx-auto px-6">
+      <div className="relative z-10 max-w-5xl mx-auto px-6 pt-24 sm:pt-28 md:pt-0">
 
         {/* SMALL LABEL */}
         <p className="text-sm tracking-[0.2em] uppercase text-neutral-300 mb-4">
