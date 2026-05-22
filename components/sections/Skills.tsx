@@ -18,6 +18,7 @@ export default function Skills() {
             "Unity",
             "Unreal Engine 5",
             "Blueprint System",
+            "Modern Web Technologies"
           ]}
         />
 
@@ -27,7 +28,7 @@ export default function Skills() {
             "C#",
             "C++",
             "Python",
-            "Web Stack",
+            "React, Node.js, TypeScript",
           ]}
         />
 
