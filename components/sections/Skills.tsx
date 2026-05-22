@@ -27,7 +27,7 @@ export default function Skills() {
             "C#",
             "C++",
             "Python",
-            "Object-Oriented Architecture",
+            "Web Stack",
           ]}
         />
 
