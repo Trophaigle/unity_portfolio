@@ -4,7 +4,7 @@ A modern interactive portfolio built with **Next.js** and **Tailwind CSS**, show
 
 The platform presents my work across **Desktop, Mobile, and AR/VR experiences**, with a focus on interaction design, real-time 3D environments, and user experience in immersive systems.
 
-🌐 Live website: [Visit website](https://unityportfolio-gamma.vercel.app/)
+🌐 Live portfolio: [Visit portfolio](https://unityportfolio-gamma.vercel.app/)
 
 ---
 
