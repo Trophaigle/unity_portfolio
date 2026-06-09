@@ -10,13 +10,15 @@ import Skills from "@/components/sections/Skills";
 export default function Home() {
   return (
     <>
-     <Hero />
-     <About />
-     <Featured />
-     <ClientAndCollaboration />
-     <Prototypes />
-     <Skills /> 
-     <Contact />  
+     <main className="bg-black min-h-screen">
+      <Hero />
+      <About />
+      <Featured />
+      <ClientAndCollaboration />
+      <Prototypes />
+      <Skills />
+      <Contact />
+    </main>
     </>   
   );
 }
