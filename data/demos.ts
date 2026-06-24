@@ -197,6 +197,48 @@ Optimized real-time rendering, data streaming, and visual effects for performant
 
     link: "https://www.youtube.com/watch?v=IMhJPF-WwJM&list=LL",
   },
+  { slug: "music-reactive-sphere",
+
+    title: "Music Reactive Sphere", 
+
+    category: "featured", 
+
+    status: "completed", 
+    
+    platform: "Web · React · Three.js", 
+
+    short_description: "Interactive audio-reactive visualization built with React and Three.js, featuring real-time frequency analysis, procedural animations, and immersive camera controls.", 
+
+    description: `
+    Interactive web experience developed with React and Three.js to explore real-time audio visualization and procedural graphics. 
+
+    The project features a dual-sphere system driven by audio frequency analysis: 
+    - Inner sphere reacts to high frequencies and rhythm changes 
+    - Dynamic gradient transitions based on audio intensity 
+    - Radius deformation synchronized with musical peaks 
+    - Outer particle sphere responds primarily to low frequencies 
+    - Bass and treble separation for coherent visual feedback 
+    - Timeline-driven events for drops and musical transitions 
+    - Cinematic camera movements synchronized with key moments 
+    - Free camera navigation around the visualization 
+    - Audio playback controls (play, pause, seek, skip) 
+    - Real-time synchronization between audio and visual systems 
+    - Post-processing effects including bloom and dynamic lighting 
+
+    The project focuses on creating a visually coherent relationship between sound and motion, transforming music into an immersive interactive 3D experience. `, 
+
+    technologies: [ "React", "Three.js", "TypeScript", "Web Audio API", "Post Processing" ], 
+
+    tools: [ "React", "Three.js", "TypeScript", "Vite", "Web Audio API" ], 
+
+    videos: [ { src: "/videos/Threejs.mp4", poster: "/MusicSphere.png" }, ], 
+
+    images: [ "/MusicSphere.png" ], 
+
+    github: "https://github.com/Trophaigle/Visual-Audio-Experience-Threejs/blob/main/README.md", 
+
+    link: "https://visual-audio-experience-threejs.vercel.app/", 
+  },
 {
   slug: "ar-peephole-diorama",
 
