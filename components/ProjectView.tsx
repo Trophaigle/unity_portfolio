@@ -59,6 +59,17 @@ export default function ProjectView({ project }: { project: Project }) {
         </div>
       )}
 
+      {/* GITHUB */}
+      {project.github && (
+        <a
+          href={project.github}
+          target="_blank"
+          className="text-blue-400 underline"
+        >
+          GitHub repository / Demos
+        </a>
+      )}
+
       {/* DESCRIPTION */}
       <p className="text-neutral-300 leading-relaxed whitespace-pre-line">
         {project.description}
@@ -91,17 +102,6 @@ export default function ProjectView({ project }: { project: Project }) {
             ))}
           </ul>
         </div>
-      )}
-
-      {/* GITHUB */}
-      {project.github && (
-        <a
-          href={project.github}
-          target="_blank"
-          className="text-blue-400 underline"
-        >
-          GitHub repository
-        </a>
       )}
     </div>
   );

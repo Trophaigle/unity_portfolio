@@ -43,7 +43,7 @@ export default function Hero() {
         <div className="flex items-center gap-4 flex-wrap">
 
           <a
-            href="#unity"
+            href="#featured"
             className="px-6 py-3 bg-white text-black rounded-lg hover:bg-neutral-200 transition-colors"
           >
             View projects

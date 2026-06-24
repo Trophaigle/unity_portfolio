@@ -10,7 +10,7 @@ import Skills from "@/components/sections/Skills";
 export default function Home() {
   return (
     <>
-     <main className="bg-black min-h-screen">
+     
       <Hero />
       <About />
       <Featured />
@@ -18,7 +18,7 @@ export default function Home() {
       <Prototypes />
       <Skills />
       <Contact />
-    </main>
+
     </>   
   );
 }
