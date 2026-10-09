@@ -346,6 +346,13 @@ tools: ["Three.js", "FastAPI", "PostgreSQL"],
 
   images: ["/escapeGameScreenShot.png"],
 
+  videos: [
+    {
+      src: "/videos/EscapeGameDemo_compress.mp4",
+   
+    },
+  ],
+
   link:
     "https://play.unity.com/fr/games/1827c35f-1c75-4c38-8ae1-94567c9d0776/hazard-spotting-unity-demo",
 },
