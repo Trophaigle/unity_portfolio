@@ -313,7 +313,7 @@ Research topics addressed by the project:
   category: "client-collab",
   status: "paused",
 
-  platform: "NextJS (React) · Desktop",
+  platform: "Desktop  · Android",
 
   short_description:
     "Digitalisation of a pedagogical escape game focused on professional risk prevention, blending serious gameplay with immersive and playful learning.",
@@ -349,7 +349,7 @@ tools: ["Three.js", "FastAPI", "PostgreSQL"],
   videos: [
     {
       src: "/videos/EscapeGameDemo_compress.mp4",
-   
+      poster: "/escapeGameScreenShot.png",
     },
   ],
 
