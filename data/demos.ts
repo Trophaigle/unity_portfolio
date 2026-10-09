@@ -313,38 +313,36 @@ Research topics addressed by the project:
   category: "client-collab",
   status: "paused",
 
-  platform: "Unity · NextJS · Desktop (prototype exploration)",
+  platform: "NextJS (React) · Desktop",
 
   short_description:
     "Digitalisation of a pedagogical escape game focused on professional risk prevention, blending serious gameplay with immersive and playful learning.",
 
-  description: `
-This project is an ongoing collaboration with a risk prevention agency aiming to transform a physical educational escape game into a digital interactive experience.
+ description: `
+This project is a collaboration with a risk prevention agency to transform a physical educational escape game into an interactive digital experience focused on workplace safety awareness.
 
-The core objective is to preserve the original pedagogical intent while enhancing engagement through immersive gameplay, interactivity, and narrative-driven puzzle design.
+The objective is to preserve the original educational approach while creating an engaging experience built around interactive puzzles, gameplay mechanics, and immersive 3D elements.
 
-The experience is structured around a sequence of puzzles and interactive challenges that teach workplace risk awareness in a playful, fluid and immersive way.
+The project combines a Three.js-powered frontend with a dedicated backend developed in Python using FastAPI and PostgreSQL for data management and application logic.
 
-Several technical directions are currently being explored:
-- Unity-based 3D interactive version
-- Web-based interactive prototype (WebGL / browser experience)
+My contribution covers both frontend and backend development, including interactive 3D experiences, gameplay systems, API development, and database integration.
 
-My current contribution includes research and development of early prototypes:
-- Unity prototype exploring gameplay systems and interaction design
-- Web-based prototype awaiting client feedback (currently on hold)
+The experience is designed to make workplace risk prevention more engaging by encouraging players to explore environments, solve challenges, and identify potential hazards.
 
-The project is currently paused by the client, pending review and validation of the web prototype direction.
-  `,
+The project is currently on hold while awaiting further client feedback.
+`,
 
-  technologies: [
-    "Unity",
-    "Web Development",
-    "Serious Game",
-    "Interactive Learning",
-    "WebGL",
-  ],
+technologies: [
+  "Three.js",
+  "JavaScript",
+  "Python",
+  "FastAPI",
+  "PostgreSQL",
+  "Serious Game",
+  "Interactive Learning",
+],
 
-  tools: ["Unity", "NextJS", "WebGL"],
+tools: ["Three.js", "FastAPI", "PostgreSQL"],
 
   images: ["/escapeGameScreenShot.png"],
 
